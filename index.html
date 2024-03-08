@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passward Generator</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="padlock.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="Home">
+        <h1>Generate A Very Secury Passward </h1>
+        <div class="input">
+            <input type="number" placeholder="Enter Length" id="LengthInput">
+            <button id="buttSubmit">Submit</button>
+            <button id="buttreset">reset</button>
+        </div>
+        <div class="icon">
+            <i class="material-icons" id="iconMore">expand_more</i>
+        </div>
+        <div class="More_Advanced_options_container noneDisplay" id="Container_options">
+            <div class="More_Advanced_Options">
+                <div class="option">
+                    <span class="spanDefOption">UpperCase Letters</span>
+                    <div class="HomeButtonsOption">
+                        <button class="optionButt" id="buttonUppercaseLetters">Yes</button>
+                    </div>
+                </div>
+                <div class="option">
+                    <span class="spanDefOption">LowerCase Letters</span>
+                    <div class="HomeButtonsOption">
+                        <button class="optionButt" id="ButtonYesLowercase">Yes</button>
+                    </div>
+                </div>
+                <div class="option">
+                    <span class="spanDefOption">Numbers</span>
+                    <div class="HomeButtonsOption">
+                        <button class="optionButt" id="ButtonYesNumbers">Yes</button>
+                    </div>
+                </div>
+                <div class="option">
+                    <span class="spanDefOption">Sympols</span>
+                    <div class="HomeButtonsOption">
+                        <button class="optionButt" id="ButtonYesSymbols">Yes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="HomeResult">
+            passward : 
+            <span id="resultView"></span>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

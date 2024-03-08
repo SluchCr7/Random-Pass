@@ -1,0 +1,100 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10% 0;
+}
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    
+}
+input{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+}
+#HomeResult{
+    display: flex;
+    margin-top: 40px;
+    background-color: #000;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #fff;
+    gap: 10px;
+}
+#resultView{
+    font-size: 1.2rem;
+    color: #f32;
+}
+#buttSubmit , #buttreset{
+    width: 150px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;
+}
+.More_Advanced_Options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin: 10px 0;
+    justify-content: space-evenly;
+}
+option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.spanDefOption{
+    color: #000;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.HomeButtonsOption{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.optionButt{
+    padding: 10px;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 10px;
+    width: 80px;
+    background-color: transparent;
+    transition: .4s ease;
+}
+.noneDisplay{
+    display: none;
+}
+.icon i{
+    cursor: pointer;
+    color: #000;
+    font-size: 1.8rem;
+}
+.optionButt:hover{
+    transform: scale(1.1);
+}
